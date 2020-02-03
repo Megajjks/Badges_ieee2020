@@ -1,9 +1,9 @@
 # Badges_IEEE_2020
-Proyecto desarrollado en el taller de mi primer web con Reactjs
+**Proyecto desarrollado en el taller de mi primer web con Reactjs**
 ![](https://jujoru.es/wp-content/uploads/2018/12/2856694f0e244b9-750x375.jpg)
 
 
-#✅Instalación
+#✅**Instalación**
 
 
 ####Clonar el repositorio

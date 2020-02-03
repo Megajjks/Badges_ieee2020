@@ -1,8 +1,28 @@
 import React from 'react'
 
+//Función flecha o arrow
+/* Función normal
+    
+    function ComponentStateless (parametros) {
+        sentencias
+    }
+    
+    esto es lo mismo que 
+
+    const ComponentStateless = (parametros) =>{
+        sentencias
+    }
+
+*/
 const ComponentStateless = (props) =>{
     return(
-        <h2 className='componenteFunction'>Hola soy un componente de función o Stateless Component</h2>
+       <div className='componenteFunction'>
+           <h1>Descripción personal</h1>
+            <p>Nombre: {props.nombre} </p>
+            <p>edad: {props.edad} </p>
+            <p>profesión: {props.profesion} </p>
+            <p> {props.bio} </p>
+       </div>
     )
 }
 

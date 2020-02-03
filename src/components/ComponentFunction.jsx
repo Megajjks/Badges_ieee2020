@@ -34,4 +34,5 @@ export default ComponentStateless
     -Aquí no se puede declarar un estado del componente y modificar sus métodos en su ciclo de vida
     -Es más legible además de que ahorra codigo
     -spoiler alert, se le puede dotar de otras funcionalidades con reactHooks(Pero eso te lo comento después ya que puede hacerte explotar la cabeza)
+    -No se necesita referencias el contexto this. Basta con llamar al parametro
 */

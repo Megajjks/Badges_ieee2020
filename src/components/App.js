@@ -1,8 +1,14 @@
 import React from 'react';
+import ComponentStateful from './ComponentClass'
+import ComponentStateless from './ComponentFunction'
 
 function App(){
     return(
-        <div>Hola mundo</div>
+        <div>
+            <h1>Componentes</h1>
+            <ComponentStateful/>
+            <ComponentStateless/>
+        </div>
     )
 }
 
